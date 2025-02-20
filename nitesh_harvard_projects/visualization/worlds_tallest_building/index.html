@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>World's tallest buildings</title>
+
+		<!-- Load CSS libraries -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- GOOGLE FONTS -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic' rel='stylesheet' type='text/css'>
+	</head>
+
+
+	<body class="body-class">
+	<div class="container-fluid" style="border: thin solid grey; border-radius: 5px">
+		<div class="row justify-content-center">
+			<div class="align-self-center">
+				<h1 class ="header-class">The World's Tallest Buildings</h1>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-6">
+				<div class="col" id="chart">
+
+				</div>
+				<span ><p><i>*height in meters.</i></p></span>
+				<!--end of chart -->
+			</div>
+
+			<div class="col-md-4" >
+				<div class="row h-25" style="background-color: white">
+
+				</div>
+
+				<div id="summary-card-hidden" class="row h-50  card-class">
+					<div id="building-name"></div>
+					<div class="col-6" id ="building-image" ></div>
+
+					<div class="col-6">
+						<div class="row h-75">
+							<table class ="table-striped table-bordered" id ="building-table">
+								<tbody id="building-table-body" >
+								</tbody>
+							</table>
+						</div>
+
+						<div class="row h-50">
+							<div id="wiki-link"></div>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+		<!--<div class="row" style="height: 7vh; background: #C9ADA7"></div>-->
+	</div>
+	</div>
+
+
+
+
+
+	<!-- embedding JS libraries -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+	<!-- d3 -->
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+
+	<!-- own js files -->
+	<script src="js/main.js"></script>
+	</body>
+</html>

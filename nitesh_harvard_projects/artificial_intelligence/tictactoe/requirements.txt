@@ -1,0 +1,10 @@
+python=3.8
+pygame
+pygbag
+pip
+# Additional packages often needed for Python development
+numpy
+scipy
+pillow  # For image handling
+requests  # For HTTP requests if needed in your code
+

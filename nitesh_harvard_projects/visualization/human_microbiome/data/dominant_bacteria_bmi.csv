@@ -1,0 +1,51 @@
+genus,genus_mean,key,keyVal,rank,bacteria_id
+Faecalibacterium prausnitzii,0.11318671458170232,underweight,1,1,1
+Oscillospira guillermondii,0.09120617408618877,underweight,1,2,2
+Subdoligranulum variable,0.08139440607560618,underweight,1,3,3
+Ruminococcus obeum,0.06722935389511912,underweight,1,4,4
+Prevotella melaninogenica,0.062573055669126,underweight,1,5,5
+Bacteroides vulgatus,0.05216859302609557,underweight,1,6,6
+Sporobacter termitidis,0.03889200043043778,underweight,1,7,7
+Clostridium cellulosi,0.03207798948887813,underweight,1,8,8
+Coprococcus eutactus,0.02840533354591785,underweight,1,9,9
+Clostridium orbiscindens,0.025667315930135392,underweight,1,10,10
+Faecalibacterium prausnitzii,0.10663647438551903,lean,2,1,1
+Oscillospira guillermondii,0.09095571175772724,lean,2,2,2
+Prevotella melaninogenica,0.07533625807320526,lean,2,3,5
+Ruminococcus obeum,0.06681461002740922,lean,2,4,4
+Subdoligranulum variable,0.05612514127045982,lean,2,5,3
+Bacteroides vulgatus,0.05406010885993947,lean,2,6,6
+Sporobacter termitidis,0.03730693372782748,lean,2,7,7
+Clostridium cellulosi,0.032019581093586394,lean,2,8,8
+Coprococcus eutactus,0.02980413900962749,lean,2,9,9
+Bifidobacterium,0.02561283753838204,lean,2,10,11
+Faecalibacterium prausnitzii,0.11046100485640688,overweight,3,1,1
+Oscillospira guillermondii,0.07943747456511416,overweight,3,2,2
+Ruminococcus obeum,0.07389851636962758,overweight,3,3,4
+Bacteroides vulgatus,0.06604055640872292,overweight,3,4,6
+Subdoligranulum variable,0.06443792866460918,overweight,3,5,3
+Prevotella melaninogenica,0.05095721733459073,overweight,3,6,5
+Clostridium cellulosi,0.03520301522320184,overweight,3,7,8
+Sporobacter termitidis,0.03434425709251973,overweight,3,8,7
+Coprococcus eutactus,0.0317462673363882,overweight,3,9,9
+Clostridium orbiscindens,0.023289109357133943,overweight,3,10,10
+Prevotella melaninogenica,0.12466508264921314,obese,4,1,5
+Oscillospira guillermondii,0.1088285491758016,obese,4,2,2
+Bacteroides vulgatus,0.10480326700272014,obese,4,3,6
+Faecalibacterium prausnitzii,0.08533098352951882,obese,4,4,1
+Ruminococcus obeum,0.045423479532174016,obese,4,5,4
+Subdoligranulum variable,0.0403925261010029,obese,4,6,3
+Clostridium cellulosi,0.031901357516276256,obese,4,7,8
+Sporobacter termitidis,0.03067455770859896,obese,4,8,7
+Clostridium symbiosum,0.026702859550760953,obese,4,9,12
+Allistipes,0.02386076418344667,obese,4,10,13
+Prevotella melaninogenica,0.12466508264921314,obese,4,1,5
+Oscillospira guillermondii,0.1088285491758016,obese,4,2,2
+Bacteroides vulgatus,0.10480326700272014,obese,4,3,6
+Faecalibacterium prausnitzii,0.08533098352951882,obese,4,4,1
+Ruminococcus obeum,0.045423479532174016,obese,4,5,4
+Subdoligranulum variable,0.0403925261010029,obese,4,6,3
+Clostridium cellulosi,0.031901357516276256,obese,4,7,8
+Sporobacter termitidis,0.03067455770859896,obese,4,8,7
+Clostridium symbiosum,0.026702859550760953,obese,4,9,12
+Allistipes,0.02386076418344667,obese,4,10,13

@@ -1,0 +1,15 @@
+﻿BacteriaGenus,Food,BacteriaLevel,percentage,INFO
+Lactobacillus,CottageCheese,2356,12.78,"Can help break down food, absorb nutrients, and fight off ""bad"" organisms that might cause diseases."
+Lactococcus,CottageCheese,7601,41.24,Can help to boost the immune system.
+Streptococcus,CottageCheese,8476,45.98,Part of the normal microbial flora of animals and humans.
+Lactobacillus,Kefir,18961,43.57,"Can help break down food, absorb nutrients, and fight off ""bad"" organisms that might cause diseases."
+Streptococcus,Kefir,17725,40.73,Part of the normal microbial flora of animals and humans.
+Pediococcus,Kefir,1484,3.41,Play effective antibacterial roles in the microbial ecosystem.
+Leuconostoc,Kefir,852,1.96,Can potentially inhibit the growth of pathogens.
+Other,Kefir,4501,10.34,N/A
+Lactobacillus,Sauerkraut,8015,16.9,"Can help break down food, absorb nutrients, and fight off ""bad"" organisms that might cause diseases."
+Lactococcus,Sauerkraut,5627,11.87,Can help to boost the immune system.
+Streptococcus,Sauerkraut,10071,21.24,Part of the normal microbial flora of animals and humans.
+Pediococcus,Sauerkraut,2858,6.03,Play effective antibacterial roles in the microbial ecosystem.
+Leuconostoc,Sauerkraut,4090,8.63,Can potentially inhibit the growth of pathogens.
+Other,Sauerkraut,16752,35.33,N/A

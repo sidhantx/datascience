@@ -1,0 +1,83 @@
+
+/*div.tooltip {*/
+/*    position: absolute;*/
+/*    text-align: center;*/
+/*    width: 200px;*/
+/*    height: 70px;*/
+/*    padding: 2px;*/
+/*    font: 12px sans-serif;*/
+/*    background: lightsteelblue;*/
+/*    border: 0px;*/
+/*    border-radius: 8px;*/
+/*    pointer-events: none;*/
+/*}*/
+
+
+div.tooltipSmall {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+/*div.tooltip.hidden {*/
+/*    display: none;*/
+/*}*/
+
+div.tooltipSmall p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.axis path,
+.axis line {
+    fill: #8856a7;
+    stroke: blue;
+    shape-rendering: crispEdges;
+    stroke-width: 1px;
+}
+.axis text {
+    font-size: 14px;
+    fill: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+
+
+
+/* Landing page */
+
+#titleLanding {
+    font-size: 100px;
+    position: relative;
+    padding-left: 50px;
+    top: 280px;
+    color: white;
+}
+
+.homeImages {
+    position: relative;
+}
+
+#landing-bg{
+    position: absolute;
+    top: -2vh;
+    left:0;
+}

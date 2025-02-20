@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CS171 - HW2</title>
+
+		<!-- Load CSS libraries -->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+		<!-- own CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	<div class="container-sm">
+		<div class="row">
+		<div class="col-sm-8">
+			<h2 style="text-align: left; font-family: Arial; margin-top: 20px">Pizza World Delivery
+				<!--<span style="float:right; font-size: 14px; font-family: Arial; margin-top: 20px">Nitesh Kumar</span>-->
+			</h2>
+		</div>
+			<div class="col-sm-2"></div>
+		<div class="col-sm-2">
+			<img src="img/PizzaWorld-Logo.png" style="width: 150px; height: 50px;
+			 margin-right: auto; margin-top: 10px">
+		</div>
+		</div>
+	</div>
+	<!--<h2 style="text-align: left; font-family: Arial; margin-left: 20px; margin-top: 20px">Pizza World Delivery
+		&lt;!&ndash;<span style="float:right; font-size: 14px; font-family: Arial; margin-top: 20px">Nitesh Kumar</span>&ndash;&gt;
+	</h2>-->
+
+	<hr>
+
+	<h8 style="margin: 12px; font-family: Arial">Select a delivery area and/or Order type:</h8>
+	<!-- ********************** ADD YOUR HTML-ELEMENTS HERE *********************** -->	
+	<!-- Make sure to use proper bootstrap! -->
+	<!-- You will need a div-container with the id: 'chart-area' -->
+
+	<div class="container-fluid">
+
+
+		<!--row for select options -->
+
+			<div class="row justify-content-center">
+				<div class="col-sm-3">
+					<h5>Delivery Area</h5>
+				<div class="align-self-center">
+					<div class="user-control">
+						<div class="form-group">
+							<select id="location" class="form-control" onchange="createVisualization()">
+								<option value="all">All</option>
+								<option value="Boston">Boston</option>
+								<option value="Cambridge">Cambridge</option>
+								<option value="Somerville">Somerville</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+
+				<div class="col-sm-3">
+					<h5>Order Type</h5>
+					<div class="align-self-center">
+						<div class="user-control">
+							<div class="form-group">
+								<select id="order_type" class="form-control" onchange="createVisualization()">
+									<option value="all">All</option>
+									<option value="phone">Phone</option>
+									<option value="web">Web</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<div class="row" >
+			<div class="col-sm-1"></div>
+			<div class="col-sm-3 justify-content-sm-evenly">
+				<table id= "data-summary-table" class="table table-sm table-borderless
+				table-hover justify-content-between mt-lg-5">
+					<tr>
+						<th><u>Dataset Summary: </u></th>
+					</tr>
+					<tbody id="data-summary-body" style="font-family: Arial; font-size: 13px">
+					</tbody>
+				</table>
+
+			</div>
+			<div class="col-sm-4">
+				<div id="chart-area">
+					<div id="tooltip" class="hidden">
+						<p><strong>Deliveries</strong></p>
+						<p><span id="value"></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!-- container fluid-->
+	</div>
+
+
+
+
+
+
+	<!-- embedding JS libraries -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+	<!-- d3 -->
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+
+	<!-- data -->
+	<script src="data/delivery-data.js"></script>
+	<script src="data/feedback-data.js"></script>
+
+	<!-- bar chart -->
+	<script src="js/barchart.js"></script>
+
+	<!-- ****** TODO: FILTER DATA, DISPLAY BAR CHART & KEY FIGURES ****** -->
+	<script src="js/main.js"></script>
+	</body>
+</html>

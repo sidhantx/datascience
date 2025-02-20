@@ -1,0 +1,31 @@
+genus,genus_mean,key,keyVal,rank,bacteria_id
+Faecalibacterium prausnitzii,0.1155719185726673,18-30,1,1,1
+Ruminococcus obeum,0.08163512646919988,18-30,1,2,2
+Prevotella melaninogenica,0.07455806365381625,18-30,1,3,3
+Subdoligranulum variable,0.06424978873826845,18-30,1,4,4
+Oscillospira guillermondii,0.05613418868426999,18-30,1,5,5
+Bacteroides vulgatus,0.040145108893583865,18-30,1,6,6
+Coprococcus eutactus,0.036191441293255945,18-30,1,7,7
+Clostridium cellulosi,0.03385963369999298,18-30,1,8,8
+Bifidobacterium,0.030067300617539282,18-30,1,9,9
+Sporobacter termitidis,0.029328601565528842,18-30,1,10,10
+Faecalibacterium prausnitzii,0.09599860406914723,31-50,2,1,1
+Oscillospira guillermondii,0.09317735831695012,31-50,2,2,5
+Prevotella melaninogenica,0.0929069676078465,31-50,2,3,3
+Bacteroides vulgatus,0.06906153648464712,31-50,2,4,6
+Ruminococcus obeum,0.06552561080172362,31-50,2,5,2
+Subdoligranulum variable,0.05012707630982035,31-50,2,6,4
+Sporobacter termitidis,0.03387153161741106,31-50,2,7,10
+Coprococcus eutactus,0.030728308890015786,31-50,2,8,7
+Clostridium cellulosi,0.029843724719088523,31-50,2,9,8
+Bifidobacterium,0.02360967731582519,31-50,2,10,9
+Oscillospira guillermondii,0.1147101170347783,50+,3,1,5
+Faecalibacterium prausnitzii,0.09716282719648922,50+,3,2,1
+Bacteroides vulgatus,0.09212619735768142,50+,3,3,6
+Prevotella melaninogenica,0.08713483396986557,50+,3,4,3
+Subdoligranulum variable,0.050129815634942475,50+,3,5,4
+Ruminococcus obeum,0.04728955162803538,50+,3,6,2
+Sporobacter termitidis,0.037839769277336864,50+,3,7,10
+Clostridium cellulosi,0.034364167345069904,50+,3,8,8
+Clostridium symbiosum,0.02602226511577477,50+,3,9,11
+Clostridium orbiscindens,0.02155165574466356,50+,3,10,12

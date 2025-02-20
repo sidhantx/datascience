@@ -1,0 +1,50 @@
+
+
+.card-class
+{
+    background-color: #D3D3D3;
+}
+
+.header-class
+{
+    text-align: center;
+    background-color: #D3D3D3;
+}
+
+.horizontal-barchart
+{
+    fill: #888888;
+}
+
+.bar-label
+{
+    font-family: sans-serif;
+    font-size: 6px;
+    text-anchor: start;
+}
+
+.bar-text
+{
+    font-family: sans-serif;
+    font-size: 6px;
+    text-anchor: end;
+}
+
+#building-table-body
+{
+    font-family: sans-serif;
+    font-size: 13px;
+    text-anchor: middle;
+}
+
+.body-class
+{
+    padding: 5vh
+}
+
+#building-name{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}

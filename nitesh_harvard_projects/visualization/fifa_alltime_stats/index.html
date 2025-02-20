@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CS171 - HW 6</title>
+
+    <!-- CSS LIBRARIES -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="css/nouislider.css" rel="stylesheet">
+
+    <!-- YOUR CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container parent_container">
+    <div class="row">
+        <h1>FIFA World Cup<sup>TM</sup>-All Time Statistics</h1>
+        <h3><i>Please select group to view stats, and slider to filter year range.Hover over
+            the points to see the stats for that year.<i></i></h3>
+    </div>
+
+
+    <div class="row select_group" >
+        <div class="col-sm-4">
+<!--            <div class="form_main">-->
+                <div class="form_group">
+                    <label id="form_label" for="select_group">Choose group:</label>
+
+                    <select class="form-control" id ="select_group" onchange="updateVisualization()">
+                        <option value="GOALS" label="Goals"></option>
+                        <option value="TEAMS" label="Teams"></option>
+                        <option value="AVERAGE_GOALS" label="Average Goals"></option>
+                        <option value="MATCHES" label="Matches"></option>
+                        <option value="AVERAGE_ATTENDANCE" label="Average Attendance"></option>
+
+                    </select>
+                </div>
+            </div>
+        <div class="col-sm-4">
+
+
+        </div>
+        <div class="col-sm-3 slider_div">
+            <div id="year_slider"></div>
+
+        </div>
+
+    </div>
+
+    <!-- container for chart and card to show details -->
+    <div class="row">
+        <div class="col-md-8" >
+            <div id="chart-area">
+
+            </div>
+        </div>
+        <div class="col-md-3" style="padding-top: 60px;margin-right: 20px">
+            <div class="card border-dark border-opacity-10 border details_card" id="details_card"
+                 >
+                <div class="card-header" id="name_edition"></div>
+                <div class="card-body">
+                    <table id="table_edition" class="table table-striped"
+                           >
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+</div>
+
+<!-- embedding JS libraries -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="js/nouislider.js"></script>
+
+<!-- d3 -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<!-- Your implementation -->
+<script src="js/main.js"></script>
+</body>
+</html>
